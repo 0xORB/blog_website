@@ -1,0 +1,8 @@
+<table>
+    <tr valign="top">
+        <td><img src="{{ url_for('static', filename=user.avatar()) }}"
+            width="50"
+            height="50"></td>
+        <td>{{ post.author.username }} says:<br>{{ post.body }}</td>
+    </tr>
+</table>
